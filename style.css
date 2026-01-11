@@ -1,56 +1,47 @@
 body {
-      height:100vh ;
-      display:flex ;
-      justify-content: center;
-      align-items:center ;
-      background: #f4f6f8;
-      font-family: Arial, sans-serif;
-    }
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
 
-    .counter {
-      background: white;
-      padding: 30px 40px;
-      border-radius: 10px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-      text-align: center;
-    }
+}
 
-    #count {
-      font-size: 60px;
-      margin-bottom: 20px;
-      color: #333;
-    }
+.counter {
+  background-color: whitesmoke;
+  padding: 25px 30px;
+  border-radius: 8px;
+  border: 2px solid red;
+  text-align: center;
+}
 
-    .buttons {
-      display: flex;
-      gap: 15px;
-      justify-content: center;
-    }
+#count {
+  font-size: 40px;
+  margin-bottom: 40px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
 
-    button {
-      padding: 10px 20px;
-      font-size: 18px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: 0.2s;
-    }
+.buttons  button{
+padding:8px 16px;
+margin:5px;
+border:none;
+border-radius: 4px;
+cursor:pointer;
+font-size: 14px;
+}
 
-    #inc {
-      background: #4CAF50;
-      color: white;
-    }
+#inc {
+  background-color: lightskyblue;
+}
 
-    #dec {
-      background: #f44336;
-      color: white;
-    }
+#dec {
+  background-color:black;
+  color: white;
+}
 
-    #reset {
-      background: #2196F3;
-      color: white;
-    }
-
-    button:hover {
-      opacity: 0.85;
-    }
+#reset {
+  background-color: red;
+}
